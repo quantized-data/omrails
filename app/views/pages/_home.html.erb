@@ -1,9 +1,4 @@
-<% if user_signed_in? %>
-    <h1><%= current_user.name %><BR>
-      you are logined in!</h1>
-
-
-<% else %>
+<% unless user_signed_in? %>
     <div class="hero-unit">
       <h1>Welcome to One Month Rails!</h1>
 
