@@ -28,7 +28,11 @@ end
 gem 'jquery-rails'
 gem 'devise'
 gem 'simple_form'
-gem "paperclip", "~> 3.0"
+gem 'paperclip', "~> 3.0"
+gem 'annotate', ">=2.5.0"
+
+gem 'aws-sdk'
+gem 'faker', '1.1.2'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'

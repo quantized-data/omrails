@@ -68,3 +68,25 @@ Omrails::Application.routes.draw do
   # Note: This route will make all actions in every controller accessible via GET requests.
   # match ':controller(/:action(/:id))(.:format)'
 end
+#== Route Map
+# Generated on 02 Jul 2013 02:30
+#
+#                          POST   /pins(.:format)           pins#create
+#                  new_pin GET    /pins/new(.:format)       pins#new
+#                 edit_pin GET    /pins/:id/edit(.:format)  pins#edit
+#                      pin GET    /pins/:id(.:format)       pins#show
+#                          PUT    /pins/:id(.:format)       pins#update
+#                          DELETE /pins/:id(.:format)       pins#destroy
+#         new_user_session GET    /users/sign_in(.:format)  devise/sessions#new
+#             user_session POST   /users/sign_in(.:format)  devise/sessions#create
+#     destroy_user_session DELETE /users/sign_out(.:format) devise/sessions#destroy
+# cancel_user_registration GET    /users/cancel(.:format)   devise/registrations#cancel
+#        user_registration POST   /users(.:format)          devise/registrations#create
+#    new_user_registration GET    /users/sign_up(.:format)  devise/registrations#new
+#   edit_user_registration GET    /users/edit(.:format)     devise/registrations#edit
+#                          PUT    /users(.:format)          devise/registrations#update
+#                          DELETE /users(.:format)          devise/registrations#destroy
+#                     root        /                         pins#index
+#                    about GET    /about(.:format)          pages#about
+#                          GET    /pins(.:format)           pins/pin#pins
+#               pages_home GET    /pages/home(.:format)     pages#home
