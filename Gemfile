@@ -33,6 +33,7 @@ gem 'annotate', ">=2.5.0"
 
 gem 'aws-sdk'
 gem 'faker', '1.1.2'
+gem 'bootstrap-will_paginate', '0.0.6'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
